@@ -1,0 +1,33 @@
+# Top-most EditorConfig file
+root = true
+
+# Standardregeln für alle Dateien
+[*]
+charset = utf-8
+end_of_line = lf
+insert_final_newline = true
+indent_style = space
+indent_size = 4
+trim_trailing_whitespace = true
+
+# Spezielle Regeln für C#-Dateien
+[*.cs]
+indent_style = space
+indent_size = 4
+
+# Spezielle Regeln für Markdown-Dateien
+[*.md]
+trim_trailing_whitespace = false
+
+# Spezielle Regeln für JSON/YAML
+[*.json]
+indent_style = space
+indent_size = 2
+
+[*.yml]
+indent_style = space
+indent_size = 2
+
+[*.yaml]
+indent_style = space
+indent_size = 2
